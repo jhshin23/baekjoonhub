@@ -6,7 +6,7 @@ int main() {
     char arr[max] = {0};
 
     for (int i = 0; i < max; i++) {
-        scanf("%c ", &arr[i]);
+        scanf(" %c", &arr[i]);
     }
 
     printf("%c %c %c", arr[second], arr[fifth], arr[eighth]);
