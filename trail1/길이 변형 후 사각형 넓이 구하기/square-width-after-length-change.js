@@ -1,0 +1,10 @@
+const fs = require("fs");
+let input = fs.readFileSync(0, "utf8").trim();
+let [width, length] = input.split(" ");
+width = Number(width);
+length = Number(length);
+width += 8;
+length *= 3;
+console.log(width);
+console.log(length);
+console.log(length*width);
